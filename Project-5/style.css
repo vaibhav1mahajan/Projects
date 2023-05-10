@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    background-image: url(3.jpg);
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -40px;
+    left: -30px;
+    z-index: -1;
+    /* filter: blur(29.99px); */
+}
+
+.loading-text {
+    font-size: 50px;
+    color: white;
+}

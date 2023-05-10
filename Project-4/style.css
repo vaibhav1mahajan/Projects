@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 228, 106);
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+input {
+    height: 2.5rem;
+    width: 10rem;
+    outline: none;
+    border: none;
+    font-size: 1.7em;
+    transition: width 5s ease-in;
+
+}
+
+i {
+    color: black;
+
+    font-size: 1.5rem;
+
+}
+
+.hidden {
+    display: none;
+}
